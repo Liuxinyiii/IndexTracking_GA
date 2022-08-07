@@ -8,7 +8,7 @@ from tqdm import tqdm
 # %%
 startdate = '20160101'
 enddate = '20210101'
-pro = ts.pro_api('432455924591f5b8bc3a633340ccb0e719d7ab1edf1b939542329b50')
+pro = ts.pro_api('***')
 
 # %%
 # 指数日度数据
