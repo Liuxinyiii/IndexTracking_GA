@@ -3,7 +3,7 @@ import pandas as pd
 import tushare as ts
 from tqdm import tqdm
 from jqdatasdk import auth, get_index_weights, get_query_count, finance, get_industries, query
-auth('15201141906','Zhengrenlianghua2020')
+auth('***','***')
 #
 # # 计算行业因子
 # with open('/root/thesis/data/all_stocks_industry.json', encoding='utf-8') as f:
