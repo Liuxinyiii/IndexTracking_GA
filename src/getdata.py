@@ -44,7 +44,7 @@ pro = ts.pro_api('***')
 
 ff3 = pd.read_csv('/Users/liuxinyi/Desktop/论文/data/ff3_0.csv',index_col=0).append(pd.read_csv('/Users/liuxinyi/Desktop/论文/data/ff3_1.csv',index_col=0))
 ff3.date = pd.to_datetime(ff3.date.apply(str))
-barra_factors_all = pd.read_csv('/Users/liuxinyi/Desktop/正仁量化/zr/data/barra/barra_factors_20160101_to_20210101.csv', index_col=0)
+barra_factors_all = pd.read_csv('/Users/liuxinyi/Desktop/****/zr/data/barra/barra_factors_20160101_to_20210101.csv', index_col=0)
 all_dates = list(set(list(barra_factors_all.Date)))
 all_dates.sort()
 index_barra_factors = pd.DataFrame()
